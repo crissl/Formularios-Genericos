@@ -1,0 +1,26 @@
+<Resource name="jdbc/PAS8"
+        auth="Container"
+        type="javax.sql.DataSource"
+        driverClassName="oracle.jdbc.OracleDriver"
+        url="jdbc:oracle:thin:@10.1.0.113:1521:PAS8"
+        username="PROYECTOUTIC"
+        password="PR0UT1C*"
+        maxActive="100"
+        maxIdle="20"
+        maxWait="5000"
+        minIdle="5" />
+
+
+<Resource name="jdbc/DESARROLLO"
+        auth="Container"
+        type="javax.sql.DataSource"
+        driverClassName="oracle.jdbc.OracleDriver"
+        url="jdbc:oracle:thin:@10.1.0.188:1521:DESARROLLO"
+        username="UTIC"
+        password="UFAdNJc7y5"
+        maxActive="100"
+        maxIdle="20"
+        maxWait="5000"
+        minIdle="5" />
+
+
